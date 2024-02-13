@@ -92,7 +92,7 @@ export default {
     proof: {
       get() {
         return guilds.map((_, index) => {
-          return Math.floor(this.exchange[this.mat]['rate'][index] * this.input / cal_scale);
+          return Math.round(this.exchange[this.mat]['rate'][index] * this.input / cal_scale);
         });
       }
     }
