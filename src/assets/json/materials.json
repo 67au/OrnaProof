@@ -1,0 +1,560 @@
+{
+    "adamantine": {
+        "name": {
+            "en": "Adamantine",
+            "hans": "精金"
+        },
+        "tier": 4,
+        "rarity": 1,
+        "icon": "/img/materials/adamantine.png"
+    },
+    "ancient-stone": {
+        "name": {
+            "en": "Ancient Stone",
+            "hans": "远古之石"
+        },
+        "tier": 3,
+        "rarity": 0,
+        "icon": "/img/materials/stone.png"
+    },
+    "avalon-ore": {
+        "name": {
+            "en": "Avalon Ore",
+            "hans": "阿瓦隆矿石"
+        },
+        "tier": 8,
+        "rarity": 1,
+        "icon": "/img/materials/lightstone.png"
+    },
+    "balorite": {
+        "name": {
+            "en": "Balorite",
+            "hans": "巴罗尔灵石"
+        },
+        "tier": 4,
+        "rarity": 0,
+        "icon": "/img/materials/balorite.png"
+    },
+    "baldur": {
+        "name": {
+            "en": "Baldur",
+            "hans": "巴德尔光石"
+        },
+        "tier": 8,
+        "rarity": 1,
+        "icon": "/img/materials/baldur.png"
+    },
+    "cavestone": {
+        "name": {
+            "en": "Cavestone",
+            "hans": "洞穴石"
+        },
+        "tier": 4,
+        "rarity": 1,
+        "icon": "/img/materials/stone.png"
+    },
+    "bone": {
+        "name": {
+            "en": "Bone",
+            "hans": "骨头"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/bone.png"
+    },
+    "broken-statue": {
+        "name": {
+            "en": "Broken Statue",
+            "hans": "破碎雕像"
+        },
+        "tier": 3,
+        "rarity": 1,
+        "icon": "/img/materials/stone.png"
+    },
+    "cursed-ortanite": {
+        "name": {
+            "en": "Cursed Ortanite",
+            "hans": "诅咒欧坦尼"
+        },
+        "tier": 10,
+        "rarity": 1,
+        "icon": "/img/materials/cursed_ortanite.png"
+    },
+    "darkstone": {
+        "name": {
+            "en": "Darkstone",
+            "hans": "暗之石"
+        },
+        "tier": 1,
+        "rarity": 1,
+        "icon": "/img/materials/dark_stone.png"
+    },
+    "dayleaf": {
+        "name": {
+            "en": "Dayleaf",
+            "hans": "日之叶"
+        },
+        "tier": 2,
+        "rarity": 1,
+        "icon": "/img/materials/dayleaf.png"
+    },
+    "dragonite": {
+        "name": {
+            "en": "Dragonite",
+            "hans": "龙灵石"
+        },
+        "tier": 1,
+        "rarity": 2,
+        "icon": "/img/materials/dragonite.png"
+    },
+    "demonic-ore": {
+        "name": {
+            "en": "Demonic Ore",
+            "hans": "恶魔矿石"
+        },
+        "tier": 2,
+        "rarity": 1,
+        "icon": "/img/materials/demonstone.png"
+    },
+    "earthstone": {
+        "name": {
+            "en": "Earthstone",
+            "hans": "地之石"
+        },
+        "tier": 1,
+        "rarity": 1,
+        "icon": "/img/materials/earth_stone.png"
+    },
+    "draconite": {
+        "name": {
+            "en": "Draconite",
+            "hans": "德肯灵石"
+        },
+        "tier": 1,
+        "rarity": 1,
+        "icon": "/img/materials/draconite.png"
+    },
+    "elstone": {
+        "name": {
+            "en": "Elstone",
+            "hans": "精灵石"
+        },
+        "tier": 4,
+        "rarity": 0,
+        "icon": "/img/materials/elstone.png"
+    },
+    "eyestone": {
+        "name": {
+            "en": "Eyestone",
+            "hans": "眼石"
+        },
+        "tier": 5,
+        "rarity": 1,
+        "icon": "/img/materials/eye.png"
+    },
+    "firestone": {
+        "name": {
+            "en": "Firestone",
+            "hans": "火之石"
+        },
+        "tier": 1,
+        "rarity": 1,
+        "icon": "/img/materials/fire_stone.png"
+    },
+    "fogstone": {
+        "name": {
+            "en": "Fogstone",
+            "hans": "雾之石"
+        },
+        "tier": 5,
+        "rarity": 1,
+        "icon": "/img/materials/fogstone.png"
+    },
+    "greater-soul": {
+        "name": {
+            "en": "Greater Soul",
+            "hans": "强大灵魂"
+        },
+        "tier": 2,
+        "rarity": 1,
+        "icon": "/img/materials/greater_soul.png"
+    },
+    "hardened-steel": {
+        "name": {
+            "en": "Hardened Steel",
+            "hans": "硬化钢"
+        },
+        "tier": 1,
+        "rarity": 1,
+        "icon": "/img/materials/steel.png"
+    },
+    "hide": {
+        "name": {
+            "en": "Hide",
+            "hans": "兽皮"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/hide.png"
+    },
+    "iron": {
+        "name": {
+            "en": "Iron",
+            "hans": "铁"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/iron.png"
+    },
+    "leather": {
+        "name": {
+            "en": "Leather",
+            "hans": "皮革"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/leather.png"
+    },
+    "lesser-balorite": {
+        "name": {
+            "en": "Lesser Balorite",
+            "hans": "低阶巴罗尔灵石"
+        },
+        "tier": 4,
+        "rarity": 0,
+        "icon": "/img/materials/balorite.png"
+    },
+    "lightningstone": {
+        "name": {
+            "en": "Lightningstone",
+            "hans": "雷之石"
+        },
+        "tier": 1,
+        "rarity": 1,
+        "icon": "/img/materials/lightning_stone.png"
+    },
+    "lightstone": {
+        "name": {
+            "en": "Lightstone",
+            "hans": "光之石"
+        },
+        "tier": 8,
+        "rarity": 1,
+        "icon": "/img/materials/lightstone.png"
+    },
+    "mandrake": {
+        "name": {
+            "en": "Mandrake",
+            "hans": "曼德拉草"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/mandrake.png"
+    },
+    "lyonite": {
+        "name": {
+            "en": "Lyonite",
+            "hans": "里昂原石"
+        },
+        "tier": 10,
+        "rarity": 1,
+        "icon": "/img/materials/lyonite.png"
+    },
+    "nightstone": {
+        "name": {
+            "en": "Nightstone",
+            "hans": "夜之石"
+        },
+        "tier": 6,
+        "rarity": 1,
+        "icon": "/img/materials/nightstone.png"
+    },
+    "nightshade": {
+        "name": {
+            "en": "Nightshade",
+            "hans": "夜影"
+        },
+        "tier": 2,
+        "rarity": 0,
+        "icon": "/img/materials/nightshade.png"
+    },
+    "mythril": {
+        "name": {
+            "en": "Mythril",
+            "hans": "秘银"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/mythril.png"
+    },
+    "orichalcum": {
+        "name": {
+            "en": "Orichalcum",
+            "hans": "奥利哈钢"
+        },
+        "tier": 8,
+        "rarity": 0,
+        "icon": "/img/materials/orichalcum.png"
+    },
+    "perfect-baldur": {
+        "name": {
+            "en": "Perfect Baldur",
+            "hans": "完美巴德尔光石"
+        },
+        "tier": 8,
+        "rarity": 1,
+        "icon": "/img/materials/baldur.png"
+    },
+    "perfect-runestone": {
+        "name": {
+            "en": "Perfect Runestone",
+            "hans": "完美符文石"
+        },
+        "tier": 5,
+        "rarity": 1,
+        "icon": "/img/materials/runestone.png"
+    },
+    "ortanite": {
+        "name": {
+            "en": "Ortanite",
+            "hans": "欧坦尼"
+        },
+        "tier": 9,
+        "rarity": 3,
+        "icon": "/img/materials/ortanite.png"
+    },
+    "platinum": {
+        "name": {
+            "en": "Platinum",
+            "hans": "白金"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/silver.png"
+    },
+    "pure-darkstone": {
+        "name": {
+            "en": "Pure Darkstone",
+            "hans": "纯净暗之石"
+        },
+        "tier": 7,
+        "rarity": 2,
+        "icon": "/img/materials/dark_stone.png"
+    },
+    "pure-draconite": {
+        "name": {
+            "en": "Pure Draconite",
+            "hans": "纯净德肯灵石"
+        },
+        "tier": 2,
+        "rarity": 1,
+        "icon": "/img/materials/draconite.png"
+    },
+    "pure-waterstone": {
+        "name": {
+            "en": "Pure Waterstone",
+            "hans": "纯净水之石"
+        },
+        "tier": 6,
+        "rarity": 0,
+        "icon": "/img/materials/water_stone.png"
+    },
+    "pure-lightstone": {
+        "name": {
+            "en": "Pure Lightstone",
+            "hans": "纯净光之石"
+        },
+        "tier": 8,
+        "rarity": 1,
+        "icon": "/img/materials/lightstone.png"
+    },
+    "realm-ore": {
+        "name": {
+            "en": "Realm Ore",
+            "hans": "域界矿石"
+        },
+        "tier": 9,
+        "rarity": 1,
+        "icon": "/img/materials/realm_ore.png"
+    },
+    "red-draconite": {
+        "name": {
+            "en": "Red Draconite",
+            "hans": "红德肯灵石"
+        },
+        "tier": 6,
+        "rarity": 1,
+        "icon": "/img/materials/demonstone.png"
+    },
+    "runestone": {
+        "name": {
+            "en": "Runestone",
+            "hans": "符文石"
+        },
+        "tier": 1,
+        "rarity": 1,
+        "icon": "/img/materials/runestone.png"
+    },
+    "sandstone": {
+        "name": {
+            "en": "Sandstone",
+            "hans": "沙之石"
+        },
+        "tier": 4,
+        "rarity": 1,
+        "icon": "/img/materials/sandstone.png"
+    },
+    "scalestone": {
+        "name": {
+            "en": "Scalestone",
+            "hans": "鳞石"
+        },
+        "tier": 3,
+        "rarity": 1,
+        "icon": "/img/materials/scalestone.png"
+    },
+    "silver": {
+        "name": {
+            "en": "Silver",
+            "hans": "银"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/silver.png"
+    },
+    "silphium": {
+        "name": {
+            "en": "Silphium",
+            "hans": "罗盘草"
+        },
+        "tier": 2,
+        "rarity": 1,
+        "icon": "/img/materials/silphium.png"
+    },
+    "silk": {
+        "name": {
+            "en": "Silk",
+            "hans": "丝"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/silk.png"
+    },
+    "skystone": {
+        "name": {
+            "en": "Skystone",
+            "hans": "飓风石"
+        },
+        "tier": 4,
+        "rarity": 1,
+        "icon": "/img/materials/sandstone.png"
+    },
+    "soul": {
+        "name": {
+            "en": "Soul",
+            "hans": "灵魂"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/soul.png"
+    },
+    "solarite": {
+        "name": {
+            "en": "Solarite",
+            "hans": "太阳灵石"
+        },
+        "tier": 4,
+        "rarity": 0,
+        "icon": "/img/materials/solarite.png"
+    },
+    "steel": {
+        "name": {
+            "en": "Steel",
+            "hans": "钢"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/steel.png"
+    },
+    "stone": {
+        "name": {
+            "en": "Stone",
+            "hans": "石头"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/stone.png"
+    },
+    "titanium": {
+        "name": {
+            "en": "Titanium",
+            "hans": "泰坦原石"
+        },
+        "tier": 4,
+        "rarity": 0,
+        "icon": "/img/materials/titanium.png"
+    },
+    "twilightstone": {
+        "name": {
+            "en": "Twilightstone",
+            "hans": "暮光石"
+        },
+        "tier": 6,
+        "rarity": 1,
+        "icon": "/img/materials/nightstone.png"
+    },
+    "undead-bone": {
+        "name": {
+            "en": "Undead Bone",
+            "hans": "不死族之骨"
+        },
+        "tier": 4,
+        "rarity": 1,
+        "icon": "/img/materials/bone.png"
+    },
+    "vampiric-ore": {
+        "name": {
+            "en": "Vampiric Ore",
+            "hans": "吸血鬼矿石"
+        },
+        "tier": 5,
+        "rarity": 1,
+        "icon": "/img/materials/vampiric_ore.png"
+    },
+    "waterstone": {
+        "name": {
+            "en": "Waterstone",
+            "hans": "水之石"
+        },
+        "tier": 1,
+        "rarity": 1,
+        "icon": "/img/materials/water_stone.png"
+    },
+    "wolfs-blood": {
+        "name": {
+            "en": "Wolf's Blood",
+            "hans": "狼之血"
+        },
+        "tier": 3,
+        "rarity": 1,
+        "icon": "/img/materials/wolf_blood.png"
+    },
+    "wood": {
+        "name": {
+            "en": "Wood",
+            "hans": "木头"
+        },
+        "tier": 1,
+        "rarity": 0,
+        "icon": "/img/materials/wood.png"
+    },
+    "witchstone": {
+        "name": {
+            "en": "Witchstone",
+            "hans": "女巫石"
+        },
+        "tier": 6,
+        "rarity": 1,
+        "icon": "/img/materials/dark_stone.png"
+    }
+}
