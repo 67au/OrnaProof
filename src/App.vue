@@ -87,7 +87,7 @@ export default {
       Cookies.set('input', input);
     },
     updateCounter(index) {
-      this.input = Math.floor(this.proof[index] * cal_scale / this.exchange[this.mat]['rate'][index]);
+      this.input = Math.floor(this.proof[index] * cal_scale / this.exchangeRate[this.mat]['rate'][index]);
       this.updateCounterCookie(this.input);
     },
   },
