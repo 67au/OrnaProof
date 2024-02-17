@@ -2,7 +2,8 @@
     "adamantine": {
         "name": {
             "en": "Adamantine",
-            "hans": "精金"
+            "zh-hans": "精金",
+            "zh-hant": "精金"
         },
         "tier": 4,
         "rarity": 1,
@@ -11,7 +12,8 @@
     "ancient-stone": {
         "name": {
             "en": "Ancient Stone",
-            "hans": "远古之石"
+            "zh-hans": "远古之石",
+            "zh-hant": "遠古之石"
         },
         "tier": 3,
         "rarity": 0,
@@ -20,7 +22,8 @@
     "avalon-ore": {
         "name": {
             "en": "Avalon Ore",
-            "hans": "阿瓦隆矿石"
+            "zh-hans": "阿瓦隆矿石",
+            "zh-hant": "阿瓦隆礦石"
         },
         "tier": 8,
         "rarity": 1,
@@ -29,7 +32,8 @@
     "balorite": {
         "name": {
             "en": "Balorite",
-            "hans": "巴罗尔灵石"
+            "zh-hans": "巴罗尔灵石",
+            "zh-hant": "巴羅爾靈石"
         },
         "tier": 4,
         "rarity": 0,
@@ -38,7 +42,8 @@
     "baldur": {
         "name": {
             "en": "Baldur",
-            "hans": "巴德尔光石"
+            "zh-hans": "巴德尔光石",
+            "zh-hant": "巴德爾光石"
         },
         "tier": 8,
         "rarity": 1,
@@ -47,7 +52,8 @@
     "cavestone": {
         "name": {
             "en": "Cavestone",
-            "hans": "洞穴石"
+            "zh-hans": "洞穴石",
+            "zh-hant": "洞穴石"
         },
         "tier": 4,
         "rarity": 1,
@@ -56,7 +62,8 @@
     "bone": {
         "name": {
             "en": "Bone",
-            "hans": "骨头"
+            "zh-hans": "骨头",
+            "zh-hant": "骨頭"
         },
         "tier": 1,
         "rarity": 0,
@@ -65,7 +72,8 @@
     "broken-statue": {
         "name": {
             "en": "Broken Statue",
-            "hans": "破碎雕像"
+            "zh-hans": "破碎雕像",
+            "zh-hant": "破損雕像"
         },
         "tier": 3,
         "rarity": 1,
@@ -74,7 +82,8 @@
     "cursed-ortanite": {
         "name": {
             "en": "Cursed Ortanite",
-            "hans": "诅咒欧坦尼"
+            "zh-hans": "诅咒欧坦尼",
+            "zh-hant": "詛咒的歐坦尼"
         },
         "tier": 10,
         "rarity": 1,
@@ -83,7 +92,8 @@
     "darkstone": {
         "name": {
             "en": "Darkstone",
-            "hans": "暗之石"
+            "zh-hans": "暗之石",
+            "zh-hant": "闇之石"
         },
         "tier": 1,
         "rarity": 1,
@@ -92,7 +102,8 @@
     "dayleaf": {
         "name": {
             "en": "Dayleaf",
-            "hans": "日之叶"
+            "zh-hans": "日之叶",
+            "zh-hant": "日之葉"
         },
         "tier": 2,
         "rarity": 1,
@@ -101,7 +112,8 @@
     "dragonite": {
         "name": {
             "en": "Dragonite",
-            "hans": "龙灵石"
+            "zh-hans": "龙灵石",
+            "zh-hant": "龍靈石"
         },
         "tier": 1,
         "rarity": 2,
@@ -110,7 +122,8 @@
     "demonic-ore": {
         "name": {
             "en": "Demonic Ore",
-            "hans": "恶魔矿石"
+            "zh-hans": "恶魔矿石",
+            "zh-hant": "惡魔礦石"
         },
         "tier": 2,
         "rarity": 1,
@@ -119,7 +132,8 @@
     "earthstone": {
         "name": {
             "en": "Earthstone",
-            "hans": "地之石"
+            "zh-hans": "地之石",
+            "zh-hant": "地之石"
         },
         "tier": 1,
         "rarity": 1,
@@ -128,7 +142,8 @@
     "draconite": {
         "name": {
             "en": "Draconite",
-            "hans": "德肯灵石"
+            "zh-hans": "德肯灵石",
+            "zh-hant": "德肯靈石"
         },
         "tier": 1,
         "rarity": 1,
@@ -137,7 +152,8 @@
     "elstone": {
         "name": {
             "en": "Elstone",
-            "hans": "精灵石"
+            "zh-hans": "精灵石",
+            "zh-hant": "精靈石"
         },
         "tier": 4,
         "rarity": 0,
@@ -146,7 +162,8 @@
     "eyestone": {
         "name": {
             "en": "Eyestone",
-            "hans": "眼石"
+            "zh-hans": "眼石",
+            "zh-hant": "眼石"
         },
         "tier": 5,
         "rarity": 1,
@@ -155,7 +172,8 @@
     "firestone": {
         "name": {
             "en": "Firestone",
-            "hans": "火之石"
+            "zh-hans": "火之石",
+            "zh-hant": "火之石"
         },
         "tier": 1,
         "rarity": 1,
@@ -164,7 +182,8 @@
     "fogstone": {
         "name": {
             "en": "Fogstone",
-            "hans": "雾之石"
+            "zh-hans": "雾之石",
+            "zh-hant": "霧之石"
         },
         "tier": 5,
         "rarity": 1,
@@ -173,7 +192,8 @@
     "greater-soul": {
         "name": {
             "en": "Greater Soul",
-            "hans": "强大灵魂"
+            "zh-hans": "强大灵魂",
+            "zh-hant": "強大靈魂"
         },
         "tier": 2,
         "rarity": 1,
@@ -182,7 +202,8 @@
     "hardened-steel": {
         "name": {
             "en": "Hardened Steel",
-            "hans": "硬化钢"
+            "zh-hans": "硬化钢",
+            "zh-hant": "硬化鋼"
         },
         "tier": 1,
         "rarity": 1,
@@ -191,7 +212,8 @@
     "hide": {
         "name": {
             "en": "Hide",
-            "hans": "兽皮"
+            "zh-hans": "兽皮",
+            "zh-hant": "獸皮"
         },
         "tier": 1,
         "rarity": 0,
@@ -200,7 +222,8 @@
     "iron": {
         "name": {
             "en": "Iron",
-            "hans": "铁"
+            "zh-hans": "铁",
+            "zh-hant": "鐵"
         },
         "tier": 1,
         "rarity": 0,
@@ -209,7 +232,8 @@
     "leather": {
         "name": {
             "en": "Leather",
-            "hans": "皮革"
+            "zh-hans": "皮革",
+            "zh-hant": "皮革"
         },
         "tier": 1,
         "rarity": 0,
@@ -218,7 +242,8 @@
     "lesser-balorite": {
         "name": {
             "en": "Lesser Balorite",
-            "hans": "低阶巴罗尔灵石"
+            "zh-hans": "低阶巴罗尔灵石",
+            "zh-hant": "低階巴羅爾石"
         },
         "tier": 4,
         "rarity": 0,
@@ -227,7 +252,8 @@
     "lightningstone": {
         "name": {
             "en": "Lightningstone",
-            "hans": "雷之石"
+            "zh-hans": "雷之石",
+            "zh-hant": "雷之石"
         },
         "tier": 1,
         "rarity": 1,
@@ -236,7 +262,8 @@
     "lightstone": {
         "name": {
             "en": "Lightstone",
-            "hans": "光之石"
+            "zh-hans": "光之石",
+            "zh-hant": "光之石"
         },
         "tier": 8,
         "rarity": 1,
@@ -245,7 +272,8 @@
     "mandrake": {
         "name": {
             "en": "Mandrake",
-            "hans": "曼德拉草"
+            "zh-hans": "曼德拉草",
+            "zh-hant": "曼德拉草"
         },
         "tier": 1,
         "rarity": 0,
@@ -254,7 +282,8 @@
     "lyonite": {
         "name": {
             "en": "Lyonite",
-            "hans": "里昂原石"
+            "zh-hans": "里昂原石",
+            "zh-hant": "里昂靈石"
         },
         "tier": 10,
         "rarity": 1,
@@ -263,7 +292,8 @@
     "nightstone": {
         "name": {
             "en": "Nightstone",
-            "hans": "夜之石"
+            "zh-hans": "夜之石",
+            "zh-hant": "夜之石"
         },
         "tier": 6,
         "rarity": 1,
@@ -272,7 +302,8 @@
     "nightshade": {
         "name": {
             "en": "Nightshade",
-            "hans": "夜影"
+            "zh-hans": "夜影",
+            "zh-hant": "夜影"
         },
         "tier": 2,
         "rarity": 0,
@@ -281,7 +312,8 @@
     "mythril": {
         "name": {
             "en": "Mythril",
-            "hans": "秘银"
+            "zh-hans": "秘银",
+            "zh-hant": "秘銀"
         },
         "tier": 1,
         "rarity": 0,
@@ -290,7 +322,8 @@
     "orichalcum": {
         "name": {
             "en": "Orichalcum",
-            "hans": "奥利哈钢"
+            "zh-hans": "奥利哈钢",
+            "zh-hant": "奧利哈鋼"
         },
         "tier": 8,
         "rarity": 0,
@@ -299,7 +332,8 @@
     "perfect-baldur": {
         "name": {
             "en": "Perfect Baldur",
-            "hans": "完美巴德尔光石"
+            "zh-hans": "完美巴德尔光石",
+            "zh-hant": "完美巴德爾光石"
         },
         "tier": 8,
         "rarity": 1,
@@ -308,7 +342,8 @@
     "perfect-runestone": {
         "name": {
             "en": "Perfect Runestone",
-            "hans": "完美符文石"
+            "zh-hans": "完美符文石",
+            "zh-hant": "完美符文石"
         },
         "tier": 5,
         "rarity": 1,
@@ -317,7 +352,8 @@
     "ortanite": {
         "name": {
             "en": "Ortanite",
-            "hans": "欧坦尼"
+            "zh-hans": "欧坦尼",
+            "zh-hant": "歐坦尼"
         },
         "tier": 9,
         "rarity": 3,
@@ -326,7 +362,8 @@
     "platinum": {
         "name": {
             "en": "Platinum",
-            "hans": "白金"
+            "zh-hans": "白金",
+            "zh-hant": "白金"
         },
         "tier": 1,
         "rarity": 0,
@@ -335,7 +372,8 @@
     "pure-darkstone": {
         "name": {
             "en": "Pure Darkstone",
-            "hans": "纯净暗之石"
+            "zh-hans": "纯净暗之石",
+            "zh-hant": "純淨的暗黑石"
         },
         "tier": 7,
         "rarity": 2,
@@ -344,7 +382,8 @@
     "pure-draconite": {
         "name": {
             "en": "Pure Draconite",
-            "hans": "纯净德肯灵石"
+            "zh-hans": "纯净德肯灵石",
+            "zh-hant": "純淨的德肯靈石"
         },
         "tier": 2,
         "rarity": 1,
@@ -353,7 +392,8 @@
     "pure-waterstone": {
         "name": {
             "en": "Pure Waterstone",
-            "hans": "纯净水之石"
+            "zh-hans": "纯净水之石",
+            "zh-hant": "純淨的水石"
         },
         "tier": 6,
         "rarity": 0,
@@ -362,7 +402,8 @@
     "pure-lightstone": {
         "name": {
             "en": "Pure Lightstone",
-            "hans": "纯净光之石"
+            "zh-hans": "纯净光之石",
+            "zh-hant": "純淨的光石"
         },
         "tier": 8,
         "rarity": 1,
@@ -371,7 +412,8 @@
     "realm-ore": {
         "name": {
             "en": "Realm Ore",
-            "hans": "域界矿石"
+            "zh-hans": "域界矿石",
+            "zh-hant": "域界礦石"
         },
         "tier": 9,
         "rarity": 1,
@@ -380,7 +422,8 @@
     "red-draconite": {
         "name": {
             "en": "Red Draconite",
-            "hans": "红德肯灵石"
+            "zh-hans": "红德肯灵石",
+            "zh-hant": "紅德肯靈石"
         },
         "tier": 6,
         "rarity": 1,
@@ -389,7 +432,8 @@
     "runestone": {
         "name": {
             "en": "Runestone",
-            "hans": "符文石"
+            "zh-hans": "符文石",
+            "zh-hant": "符文石"
         },
         "tier": 1,
         "rarity": 1,
@@ -398,7 +442,8 @@
     "sandstone": {
         "name": {
             "en": "Sandstone",
-            "hans": "沙之石"
+            "zh-hans": "沙之石",
+            "zh-hant": "沙之石"
         },
         "tier": 4,
         "rarity": 1,
@@ -407,7 +452,8 @@
     "scalestone": {
         "name": {
             "en": "Scalestone",
-            "hans": "鳞石"
+            "zh-hans": "鳞石",
+            "zh-hant": "鱗石"
         },
         "tier": 3,
         "rarity": 1,
@@ -416,7 +462,8 @@
     "silver": {
         "name": {
             "en": "Silver",
-            "hans": "银"
+            "zh-hans": "银",
+            "zh-hant": "銀"
         },
         "tier": 1,
         "rarity": 0,
@@ -425,7 +472,8 @@
     "silphium": {
         "name": {
             "en": "Silphium",
-            "hans": "罗盘草"
+            "zh-hans": "罗盘草",
+            "zh-hant": "羅盤草"
         },
         "tier": 2,
         "rarity": 1,
@@ -434,7 +482,8 @@
     "silk": {
         "name": {
             "en": "Silk",
-            "hans": "丝"
+            "zh-hans": "丝",
+            "zh-hant": "絲"
         },
         "tier": 1,
         "rarity": 0,
@@ -443,7 +492,8 @@
     "skystone": {
         "name": {
             "en": "Skystone",
-            "hans": "飓风石"
+            "zh-hans": "飓风石",
+            "zh-hant": "蒼穹石"
         },
         "tier": 4,
         "rarity": 1,
@@ -452,7 +502,8 @@
     "soul": {
         "name": {
             "en": "Soul",
-            "hans": "灵魂"
+            "zh-hans": "灵魂",
+            "zh-hant": "靈魂"
         },
         "tier": 1,
         "rarity": 0,
@@ -461,7 +512,8 @@
     "solarite": {
         "name": {
             "en": "Solarite",
-            "hans": "太阳灵石"
+            "zh-hans": "太阳灵石",
+            "zh-hant": "太陽靈石"
         },
         "tier": 4,
         "rarity": 0,
@@ -470,7 +522,8 @@
     "steel": {
         "name": {
             "en": "Steel",
-            "hans": "钢"
+            "zh-hans": "钢",
+            "zh-hant": "鋼"
         },
         "tier": 1,
         "rarity": 0,
@@ -479,7 +532,8 @@
     "stone": {
         "name": {
             "en": "Stone",
-            "hans": "石头"
+            "zh-hans": "石头",
+            "zh-hant": "石頭"
         },
         "tier": 1,
         "rarity": 0,
@@ -488,7 +542,8 @@
     "titanium": {
         "name": {
             "en": "Titanium",
-            "hans": "泰坦原石"
+            "zh-hans": "泰坦原石",
+            "zh-hant": "泰坦原石"
         },
         "tier": 4,
         "rarity": 0,
@@ -497,7 +552,8 @@
     "twilightstone": {
         "name": {
             "en": "Twilightstone",
-            "hans": "暮光石"
+            "zh-hans": "暮光石",
+            "zh-hant": "暮光石"
         },
         "tier": 6,
         "rarity": 1,
@@ -506,7 +562,8 @@
     "undead-bone": {
         "name": {
             "en": "Undead Bone",
-            "hans": "不死族之骨"
+            "zh-hans": "不死族之骨",
+            "zh-hant": "不死族之骨"
         },
         "tier": 4,
         "rarity": 1,
@@ -515,7 +572,8 @@
     "vampiric-ore": {
         "name": {
             "en": "Vampiric Ore",
-            "hans": "吸血鬼矿石"
+            "zh-hans": "吸血鬼矿石",
+            "zh-hant": "吸血鬼礦石"
         },
         "tier": 5,
         "rarity": 1,
@@ -524,7 +582,8 @@
     "waterstone": {
         "name": {
             "en": "Waterstone",
-            "hans": "水之石"
+            "zh-hans": "水之石",
+            "zh-hant": "水之石"
         },
         "tier": 1,
         "rarity": 1,
@@ -533,7 +592,8 @@
     "wolfs-blood": {
         "name": {
             "en": "Wolf's Blood",
-            "hans": "狼之血"
+            "zh-hans": "狼之血",
+            "zh-hant": "狼之血"
         },
         "tier": 3,
         "rarity": 1,
@@ -542,7 +602,8 @@
     "wood": {
         "name": {
             "en": "Wood",
-            "hans": "木头"
+            "zh-hans": "木头",
+            "zh-hant": "木頭"
         },
         "tier": 1,
         "rarity": 0,
@@ -551,7 +612,8 @@
     "witchstone": {
         "name": {
             "en": "Witchstone",
-            "hans": "女巫石"
+            "zh-hans": "女巫石",
+            "zh-hant": "女巫石"
         },
         "tier": 6,
         "rarity": 1,

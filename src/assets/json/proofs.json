@@ -1,0 +1,92 @@
+{
+    "proof-of-anguish": {
+        "icon": "/img/useables/proof_anguish.png",
+        "name": {
+            "en": "Proof of Anguish",
+            "zh-hans": "苦难之证",
+            "zh-hant": "煎熬之證"
+        },
+        "rate": 1
+    },
+    "tower-shard": {
+        "icon": "/img/useables/tower_fragment.png",
+        "name": {
+            "en": "Tower Shard",
+            "zh-hans": "塔之碎片",
+            "zh-hant": "塔之碎片"
+        },
+        "rate": 200
+    },
+    "coral": {
+        "icon": "/img/items/coral.png",
+        "name": {
+            "en": "Coral",
+            "zh-hans": "珊瑚",
+            "zh-hant": "珊瑚"
+        },
+        "rate": 20
+    },
+    "proof-of-monument": {
+        "icon": "/img/useables/proof_monument1.png",
+        "name": {
+            "en": "Proof of Monument",
+            "zh-hans": "纪念之证",
+            "zh-hant": "紀念之證"
+        },
+        "rate": 10
+    },
+    "proof-of-felling": {
+        "icon": "/img/useables/proof_monument2.png",
+        "name": {
+            "en": "Proof of Felling",
+            "zh-hans": "讨伐之证",
+            "zh-hant": "討伐之證"
+        },
+        "rate": 20
+    },
+    "proof-of-sparring": {
+        "icon": "/img/useables/proof_blades1.png",
+        "name": {
+            "en": "Proof of Sparring",
+            "zh-hans": "斗技之证",
+            "zh-hant": "決鬥之證"
+        },
+        "rate": 4
+    },
+    "deepshard": {
+        "icon": "/img/items/dungeon_shard.png",
+        "name": {
+            "en": "Deepshard",
+            "zh-hans": "深岩碎片",
+            "zh-hant": "深淵碎片"
+        },
+        "rate": 20
+    },
+    "proof-of-trials": {
+        "icon": "/img/useables/proof_trials1.png",
+        "name": {
+            "en": "Proof of Trials",
+            "zh-hans": "试炼之证",
+            "zh-hant": "試煉之證"
+        },
+        "rate": 2
+    },
+    "proof-of-effort": {
+        "icon": "/img/useables/proof_adventure1.png",
+        "name": {
+            "en": "Proof of Effort",
+            "zh-hans": "贡献之证",
+            "zh-hant": "貢獻度之證"
+        },
+        "rate": 2
+    },
+    "proof-of-remembrance": {
+        "icon": "/img/useables/proof_memory1.png",
+        "name": {
+            "en": "Proof of Remembrance",
+            "zh-hans": "追忆之证",
+            "zh-hant": "追憶之證"
+        },
+        "rate": 2
+    }
+}

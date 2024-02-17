@@ -1,24 +1,30 @@
 <template>
   <div class="layout">
-    <AppHeader title="Proof of Guild" />
+    <AppHeader :title="$t('title')" />
     <var-space justify="space-around" size="large">
-      <var-card title="Proof" class="card">
+      <var-card class="card">
         <template #description>
           <div class="card-description">
-            <var-select variant="outlined" placeholder="材料" v-model="mat"
-              @change="updateMatCookie(mat)">
-              <var-option v-for="(_, k) in materials" :label="exchange[k].name" :value="k" />
+            <var-select variant="outlined" :placeholder="$t('material')" v-model="mat" @change="updateMatCookie(mat)">
+              <var-option v-for="(v, k) in materials" :label="v['name'][lang]" :value="k">
+                
+                <var-icon class="append-icon" :size="24" :name="`${static_url}${v['icon']}`" />
+                <span>
+                {{ v['name'][lang] }}
+                <var-chip size="mini" plain>{{ star + v['tier'] }}</var-chip>
+                </span>
+              </var-option>
               <template #prepend-icon>
-                <var-icon class="append-icon" :size="24" :name="`${static_url}${materials[mat].icon}`" />
+                <var-icon class="append-icon" :size="24" :name="`${static_url}${materials[mat]['icon']}`" />
               </template>
             </var-select>
-            <var-input type="number" placeholder="数量" v-model="input" clearable @change="updateCounterCookie(input)" />
+            <var-input type="number" :placeholder="$t('count')" v-model="input" clearable @change="updateCounterCookie(input)" />
           </div>
           <div class="card-description">
-            <var-input type="number" v-for="(g, index) in guilds" :placeholder="g" v-model="proof[index]"
+            <var-input type="number" v-for="(id, index) in proofIds" :placeholder="proofs[id]['name'][lang]" v-model="proof[index]"
               @change="updateCounter(index)">
               <template #append-icon>
-                <var-icon class="append-icon" :size="24" :name="`${static_url}${proofs[index]}`" />
+                <var-icon class="append-icon" :size="24" :name="`${static_url}${proofs[id]['icon']}`" />
               </template>
             </var-input>
           </div>
@@ -30,50 +36,47 @@
 
 <script setup>
 import materials from './assets/json/materials.json';
+import proofs from './assets/json/proofs.json';
+import { watch } from 'vue';
 </script>
 
 <script>
 import Cookies from 'js-cookie';
 
-const guilds = [
-  '苦难之证', '塔之碎片', '珊瑚', 
-  '纪念之证', '讨伐之证', '斗技之证',
-  '深岩碎片', '试炼之证', '贡献之证',
-  '追忆之证',
+const proofIds = [
+  'proof-of-anguish', 'tower-shard', 'coral',
+  'proof-of-monument', 'proof-of-felling', 'proof-of-sparring',
+  'deepshard', 'proof-of-trials', 'proof-of-effort',
+  'proof-of-remembrance'
 ];
-const proofs = [
-  '/img/useables/proof_anguish.png', '/img/useables/tower_fragment.png', '/img/items/coral.png',
-  '/img/useables/proof_monument1.png', '/img/useables/proof_monument2.png', '/img/useables/proof_blades1.png',
-  '/img/items/dungeon_shard.png', '/img/useables/proof_trials1.png', '/img/useables/proof_adventure1.png',
-  '/img/useables/proof_memory1.png',
-]
-const formula = [
-  1, 200, 20,
-  10, 20, 4,
-  20, 2, 2,
-  2,
-];
+
+const star = '★';
 const static_url = 'https://playorna.com/static'
 const cal_scale = 100
 
 export default {
+  mounted() {
+    watch(() => this.$i18n.locale, (newVal, oldVal) => {
+      this.lang = newVal;
+    });
+  },
   data() {
     return {
-      exchange: Object.fromEntries(
+      lang: this.$i18n.locale,
+      exchangeRate: Object.fromEntries(
         Object.entries(materials).map(([key, m]) => {
           return [
             key,
             {
-              'name': `${m.name.hans}(${m.name.en})`,
-              'rate': formula.map(
-                (x) => x * (m.tier * 10 + m.rarity * 5)
+              'rate': proofIds.map(
+                (id) => proofs[id]['rate'] * (m.tier * 10 + m.rarity * 5)
               ),
             },
           ];
         })
       ),
-      mat: Cookies.get('mat')==null?Object.keys(materials)[0]:Cookies.get('mat'),
-      input: Cookies.get('input')==null?0:Cookies.get('input'),
+      mat: Cookies.get('mat') == null ? Object.keys(materials)[0] : Cookies.get('mat'),
+      input: Cookies.get('input') == null ? 0 : Cookies.get('input'),
     }
   },
   methods: {
@@ -91,8 +94,8 @@ export default {
   computed: {
     proof: {
       get() {
-        return guilds.map((_, index) => {
-          return Math.round(this.exchange[this.mat]['rate'][index] * this.input / cal_scale);
+        return proofIds.map((_, index) => {
+          return Math.ceil(this.exchangeRate[this.mat]['rate'][index] * this.input / cal_scale);
         });
       }
     }
