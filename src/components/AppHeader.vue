@@ -91,7 +91,7 @@ export default defineComponent({
 }
 
 .app-locale-switch {
-	&-icon {
+	:is(-icon) {
 		font-size: 22px;
 	}
 }</style>
