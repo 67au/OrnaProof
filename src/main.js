@@ -18,8 +18,10 @@ const langs = {
     'en-US': 'en',
 }
 
+const lang = (langs[browserLocale]===undefined)?'en':langs[browserLocale];
+
 const i18n = createI18n({
-    locale: langs[browserLocale],
+    locale: lang,
     fallbackLocale: 'en',
     messages: {
         'zh-hans': {
