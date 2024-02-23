@@ -1,0 +1,17 @@
+{
+    "zh-hans": {
+        "title": "公会之证",
+        "count": "数量",
+        "material": "材料"
+    },
+    "zh-hant": {
+        "title": "公會之証",
+        "count": "數量",
+        "material": "材料"
+    },
+    "en": {
+        "title": "Proof of Guild",
+        "count": "Count",
+        "material": "Material"
+    }
+}
