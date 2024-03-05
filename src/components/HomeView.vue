@@ -1,4 +1,5 @@
-<script setup>
+<script setup lang="ts">
+import { i18n } from '@/i18n';
 import { store } from '@/store';
 </script>
 
@@ -9,10 +10,10 @@ import { store } from '@/store';
         <template #description>
           <div class="card-description">
             <var-select size="small" variant="outlined" :placeholder="$t('material')" v-model="mat">
-              <var-option v-for="(v, k) in store.materials" :label="v['name'][store.state.language]" :value="k">
+              <var-option v-for="(v, k) in store.materials" :label="v['name'][language]" :value="k" :key="k">
                 <var-icon class="append-icon" :size="24" :name="`${staticUrl}${v['icon']}`" />
                 <span>
-                  {{ v['name'][store.state.language] }}
+                  {{ v['name'][language] }}
                   <var-chip size="mini" type="warning" plain>{{ star + v['tier'] }}</var-chip>
                 </span>
               </var-option>
@@ -20,13 +21,12 @@ import { store } from '@/store';
                 <var-icon class="append-icon" :size="24" :name="`${staticUrl}${store.materials[mat]['icon']}`" />
               </template>
             </var-select>
-            <var-input size="small" type="number" :placeholder="$t('count')" v-model="input" clearable
-              />
+            <var-input size="small" type="number" :placeholder="$t('count')" v-model="input" clearable />
           </div>
           <div class="card-description">
             <var-input size="small" type="number" v-for="(id, index) in proofIds"
-              :placeholder="store.proofs[id]['name'][store.state.language]" v-model="proof[index]"
-              @change="updateCounter(index)">
+              :placeholder="store.proofs[id]['name'][language]" v-model="proof[index]" @change="updateCounter(index)" :key="id">
+
               <template #append-icon>
                 <var-icon class="append-icon" :size="24" :name="`${staticUrl}${store.proofs[id]['icon']}`" />
               </template>
@@ -38,7 +38,7 @@ import { store } from '@/store';
   </main>
 </template>
 
-<script>
+<script lang="ts">
 const star = '★';
 const staticUrl = 'https://playorna.com/static';
 const calScale = 100;
@@ -46,31 +46,35 @@ const calScale = 100;
 export default {
   data() {
     return {
-      input: 0,
+      input: 0 as any,
+      material: undefined,
     }
   },
   methods: {
-    updateCounter(index) {
+    updateCounter(index: number) {
       this.input = Math.floor(this.proof[index] * calScale / this.exchangeRate[this.mat]['rate'][index]);
     },
   },
   computed: {
+    language() {
+      return i18n.global.locale.value;
+    },
     mat: {
       get() {
-        return store.state.mat;
+        return store.mat;
       },
-      set(newValue) {
-        store.state.mat = newValue;
+      set(newValue: string) {
+        store.setMat(newValue);
       }
     },
     exchangeRate() {
       return Object.fromEntries(
-        Object.entries(store.materials).map(([key, m]) => {
+        Object.entries(store.materials).map(([key, m]: [string, any]) => {
           return [
             key,
             {
               'rate': this.proofIds.map(
-                (id) => store.proofs[id]['rate'] * (m.tier * 10 + m.rarity * 5)
+                (id: string) => store.proofs[id]['rate'] * (m.tier * 10 + m.rarity * 5)
               ),
             },
           ];
@@ -80,13 +84,11 @@ export default {
     proofIds() {
       return Object.keys(store.proofs);
     },
-    proof: {
-      get() {
-        return this.proofIds.map((_, index) => {
-          return Math.ceil(this.exchangeRate[this.mat]['rate'][index] * this.input / calScale);
-        });
-      }
-    }
+    proof(): any {
+      return this.proofIds.map((_: any, index: number) => {
+        return Math.ceil(this.exchangeRate[this.mat]['rate'][index] * this.input / calScale);
+      });
+    },
   }
 }
 </script>
